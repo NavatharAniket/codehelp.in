@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,css{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    border-bottom: 1px solid white;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container{
+    height: 45%;
+    width: 90%;
+    display: flex;
+}
+
+.nav-left{
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+    background-image: url(https://www.codehelp.in/_next/image?url=%2Fassets%2FCommon%2FWhitelogoGIF.gif&w=256&q=75);
+    /* background-image: co; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.nav-mid{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-mid div{
+    height: 100%;
+    width: 80%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-mid div a{
+    font-size: 1.3vw;
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        color: #6674CC;
+        transition: .3s;
+    }
+}
+
+.nav-mid div i{
+    margin: 0 3px;
+}
+
+.nav-right{
+    height: 100%;
+    width: 25%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.login{
+    background-color: #6674CC;
+    font-size: 1.2vw;
+    padding: .9vw 1.2vw;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+
+    &:hover{
+        background-color: #515DB1;
+        transition: .3s;
+    }
+}
+
+
+
+/* Main Section */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
